@@ -23,5 +23,21 @@ namespace _20231114
         {
             InitializeComponent();
         }
+        private void New_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            MessageBox.Show("New");
+        }
+
+        private void Save_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            MessageBox.Show("Save");
+        }
+
+        private void Open_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            MessageBox.Show("Open");
+        }
+
     }
+
 }

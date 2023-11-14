@@ -22,11 +22,11 @@
                     <Image Height="30" Width="30" VerticalAlignment="Center"
                       HorizontalAlignment="Center" Source="/new.png"/>
                 </Button>
-                <Button Command="ApplicationCommands.Open" x:Name="openButton" Height="35" Width="35">
+                <Button x:Name="openButton" Command="ApplicationCommands.Open" Height="35" Width="35">
                     <Image Height="30" Width="30" VerticalAlignment="Center"
                       HorizontalAlignment="Center" Source="/open.png"/>
                 </Button>
-                <Button Command="ApplicationCommands.Save" x:Name="saveButton" Height="35" Width="35">
+                <Button x:Name="saveButton" Command="ApplicationCommands.Save" Height="35" Width="35">
                     <Image Height="30" Width="30" VerticalAlignment="Center"
                       HorizontalAlignment="Center" Source="/save.png"/>
                 </Button>
