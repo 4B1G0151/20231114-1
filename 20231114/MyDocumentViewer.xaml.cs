@@ -38,6 +38,13 @@ namespace _20231114
             MessageBox.Show("Open");
         }
 
+        private void rtbEditor_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            Object property = rtbEditor.Selection.GetPropertyValue
+                (Inline.FontWeightProperty);
+            boldButton.= richText.Selection.GetPropertyValue
+                (Inline.FontWeightProperty).Equals(FontWeight.Bold);
+        }
     }
 
 }
