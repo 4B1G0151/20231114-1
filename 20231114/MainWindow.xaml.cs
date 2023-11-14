@@ -24,5 +24,6 @@ namespace _20231114
         {
             InitializeComponent();
         }
+
     }
 }
